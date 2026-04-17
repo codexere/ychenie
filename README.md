@@ -6,17 +6,20 @@ The website is built with plain HTML and CSS, so it does not require a framework
 
 ## Project Overview
 
-The project contains a two-page website:
+The project contains a three-page website:
 
 - `index.html` - the main homepage with the hero section, company introduction, services, recent projects, about summary, and contact information.
+- `services.html` - a dedicated services page with detailed service descriptions, project support areas, the company process, and contact details.
 - `about.html` - a detailed about page with the company story, mission, vision, values, leadership team, achievements, reasons to choose the company, and client testimonials.
-- `style.css` - the shared stylesheet used by both pages.
+- `style.css` - the shared stylesheet used by all pages.
 
 ## Main Features
 
 - Sticky header with navigation links
 - Homepage hero section with a call-to-action button
 - Services section for residential, commercial, renovation, and project management work
+- Dedicated services page with detailed construction service cards
+- Step-by-step construction process section
 - Recent projects section
 - Contact section with phone, email, and address details
 - Dedicated about page with company history and values
@@ -51,6 +54,17 @@ This page also includes:
 - Reasons to choose BuildRight
 - Client testimonials
 
+### Services Page
+
+The services page expands the short services section from the homepage. It explains the main types of work BuildRight offers, including residential construction, commercial building, renovations, project management, sustainable building, and site preparation.
+
+This page also includes:
+
+- Detailed service descriptions
+- Lists of work included in each service
+- A four-step project process
+- Contact information for starting a project
+
 ## Technologies Used
 
 - HTML5
@@ -64,7 +78,7 @@ Because this is a static website, you can run it by opening the HTML files direc
 
 1. Open the project folder.
 2. Double-click `index.html`.
-3. Use the navigation menu to move between the homepage and the about page.
+3. Use the navigation menu to move between the homepage, services page, and about page.
 
 You can also use the VS Code Code Runner settings for HTML files to open the current page in the browser.
 
@@ -73,6 +87,7 @@ You can also use the VS Code Code Runner settings for HTML files to open the cur
 ```text
 ychenie/
 |-- index.html
+|-- services.html
 |-- about.html
 |-- style.css
 |-- README.md

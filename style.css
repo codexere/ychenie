@@ -542,6 +542,120 @@ footer {
     text-align: right;
 }
 
+/* Services Page */
+.services-intro {
+    background-color: #f9fdf5;
+    padding: 3rem 2rem;
+}
+
+.services-detail-section {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f0f7e8 100%);
+    padding: 3rem 2rem;
+}
+
+.services-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-detail-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #4caf50;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.2);
+}
+
+.service-detail-card h3 {
+    color: #2d5016;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.service-detail-card p {
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.service-detail-card ul {
+    color: #444;
+    padding-left: 1.2rem;
+}
+
+.service-detail-card li {
+    margin-bottom: 0.5rem;
+}
+
+.service-process-section {
+    background-color: white;
+    padding: 3rem 2rem;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.process-card {
+    background-color: #f0f7e8;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    border-top: 4px solid #4caf50;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.1);
+}
+
+.process-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background-color: #2d5016;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.process-card h3 {
+    color: #2d5016;
+    margin-bottom: 0.5rem;
+}
+
+.process-card p {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.services-contact {
+    background-color: #e8f5e9;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.services-contact p {
+    color: #2d5016;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0.5rem auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header-container {
@@ -563,7 +677,9 @@ footer {
     }
 
     .services-grid,
-    .projects-grid {
+    .projects-grid,
+    .services-detail-grid,
+    .process-grid {
         grid-template-columns: 1fr;
     }
 }
